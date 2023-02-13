@@ -1,0 +1,69 @@
+@keyframes appearAnimation {
+    from { 
+        opacity: 0.0;
+        filter: blur(3px);
+    }
+    to {
+        opacity: 1.0;
+        filter: none;
+    }
+}
+
+@keyframes darkAnimation {
+    from { 
+       background-color: transparent;
+    }
+    to {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+@keyframes alertAnimation {
+    from {
+        border-color: black;
+        color: black;
+        
+    }
+    to {
+        background-color: transparent;
+        color: transparent;
+        border-color: transparent;
+    }
+}
+
+@keyframes loadingAnimation {
+    0% {
+        top: 50vh;
+        left: 10%;
+    }
+
+    25% {
+        top: 20vh;
+        left: 50%;
+    }
+
+    50% {
+        top: 50vh;
+        left: 90%;
+    }
+
+    75% {
+        top: 80vh;
+        left: 50%;
+    }
+
+    100% {
+        top: 50vh;
+        left: 10%;
+    }
+}
+
+@keyframes hourglassAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

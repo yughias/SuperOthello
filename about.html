@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/about_page.css">
+    
+    <title>Super Othello</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+</head>
+<body>
+    <nav>
+        <a href="index.php">
+            <img class="logo" alt="logo" src="img/logo.png">
+        </a>
+        <div class="nav-left">
+            <a href="index.php">
+                <img alt="log" src="img/home.svg">
+            </a>
+        </div>
+    </nav>
+
+    <h2>Modalit&agrave; di gioco</h2>
+    <h3 class="no-margin">
+        Questo sito web permette di giocare al gioco <strong>Othello</strong> in 3 modalit&agrave; differenti:
+    </h3>
+    <ul class="list no-margin">
+        <li><strong>Partita online</strong>:
+            permette di giocare online con un altro giocatore connesso alla stessa rete.
+            Ogni giocatore ha 60 secondi di tempo per effettuare la propria mossa, in caso contrario
+            verr&agrave; considerato disconnesso.
+            &Egrave; necessario aver effettuato l'accesso per poter giocare in questa modalit&agrave;.
+        </li>
+        <li><strong>Modalit&agrave; 2 giocatori</strong>: 
+            &egrave; possibile iniziare una partita in 2 giocatori dallo stesso computer.
+        </li>
+        <li><strong>Partita contro la cpu</strong>: 
+            permette di sfidare ad Othello un'intelligenza artificiale
+            basata su un <a target="_blank" href="https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning">algoritmo di minimax</a>.
+            Le possibili difficolt&agrave; dell'avversario sono:
+                <ul class="inner-list">
+                    <li>Facile</li>
+                    <li>Normale</li>
+                    <li>Difficile</li>
+                    <li>Esperto</li>
+                    <li>Impossibile</li>
+                </ul>
+        </li>
+    </ul>
+
+    <h2>Statistiche utenti</h2>
+    <h3>
+        Il servizio offre un sistema di registrazione, accessibile mediante
+        l'icona in alto a destra. Registrarsi al servizio garantisce i seguenti
+        vantaggi:
+    </h3>
+    <ul class="inner-list no-margin">
+        <li>accesso alla modalit&agrave; partita online;</li>
+        <li>salvataggio e visualizzazione delle statistiche riguardo alle
+            partite online e alle partite contro il computer.
+        </li>
+    </ul>
+
+    <h2>Regole del gioco</h2>
+    <ul class="inner-list no-margin">
+        <li>
+            L'<strong>Othello</strong> si gioca su una scacchiera di 8 caselle per lato. Inizia per primo il giocatore bianco.
+        </li>
+        <li>
+            Al suo turno ogni giocatore posiziona una pedina su una casella libera.
+        </li>
+        <li>
+        La pedina posizionata deve imprigionare quelle avversarie in almeno una direzione, in questo modo le pedine catturate
+        diventano del proprio colore.
+        </li>
+        <li>
+        Il giocatore durante il suo turno deve per forza posizionare una pedina in maniera da catturare una pedina avversaria: non si pu&ograve; dunque saltare il turno
+        qualora sia possibile effettuare una mossa in grado di imprigionare una pedina nemica.
+        </li>
+        <li>
+        Nel caso in cui non vi siano mosse valide, il giocatore passa il turno all'avversario.
+        </li>
+        <li>
+        Il gioco termina quando nessuno dei due pu&ograve; posizionare una casella.
+        </li>
+    </ul>
+
+
+    <div class="make-space"></div>
+
+    <footer>Realizzato da yughias</footer>
+
+</body>
+</html>

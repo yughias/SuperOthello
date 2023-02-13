@@ -1,0 +1,43 @@
+nav {
+    border-bottom: 1px solid black;
+    border-width: 2px;
+    border-image: linear-gradient(to right, purple, darkblue, blue) 1;
+    background-image: linear-gradient(to right, whitesmoke, violet, purple);
+}
+
+.logo {
+    margin-top: 0.5vh;
+    margin-left: 0.5vw;
+    width: min(20vw, 20vh);
+    height: min(5vw, 5vh);
+}
+
+.nav-left {
+    float: right;
+}
+
+.nav-left img {
+    margin-top: 0.5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: min(5vw, 5vh);
+    height: min(5vw, 5vh);
+    cursor: pointer;
+    border-radius: 10%;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.nav-left img:hover {
+    background-color: bisque;
+}
+
+#nav-username {
+    margin-right: 1vw;
+    margin-top: 0.5vh;
+    height: min(5vw, 5vh);
+    display: inline-flex;
+    align-items: center;
+    color: black;
+    font-size: max(2.0vw, 2.0vh);
+}
